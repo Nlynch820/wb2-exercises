@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div id="dogDiv">hi</div>
+        <button onclick="setGreeting()">Click Me</button>
+    </main>
+    <script>
+        "use strict"
+        
+        let dogDiv = document.getElementById("dogDiv");
+        let greeting = dogDiv.innerText
+        console.log(greeting);
+        function setGreeting() {
+            dogDiv.innerText = "Hello There!";
+        }
+       
+        
+    </script>
+</body>
+</html>

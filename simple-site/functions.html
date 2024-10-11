@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yankees</title>
+</head>
+<body>
+    <main>
+        <div id = "yankeesDiv">Did the Yankees win?</div>
+        <input id="nameInput" type="text" placeholder="Yes or No">
+        <button onclick="setGreeting()">Submit</button>
+    </main>
+    <script>
+        "use strict"
+
+        let yankeesDiv = document.getElementById("yankeesDiv");
+        let answer = yankeesDiv.innerText
+        console.log(answer);
+        function setGreeting() {
+            
+            yankeesDiv.innerText = "Yankees Win!"
+        } 
+        answer()
+    </script>
+</body>
+</html>
